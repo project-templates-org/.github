@@ -5,7 +5,7 @@
 **Do not open a public issue.**
 
 Use GitHub's private reporting: open the affected repository → **Security** → **Report a vulnerability**.
-If that is not available, email **`security@<your-domain>` (TODO: set a contact)** with:
+Private vulnerability reporting is enabled on all repositories. Include:
 
 - affected repository, version / commit
 - description and impact

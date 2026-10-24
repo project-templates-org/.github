@@ -10,4 +10,4 @@ In short:
 
 ## Enforcement
 
-Report unacceptable behaviour to the org owners (TODO: add a conduct contact address). Reports are handled confidentially. Maintainers may remove comments, commits or contributors that violate this code.
+Report unacceptable behaviour privately to an org owner (see the [org people page](https://github.com/orgs/project-templates-org/people)) via GitHub, or use **Report content** on the comment, issue or PR. For anything involving a security issue use [SECURITY.md](SECURITY.md). Reports are handled confidentially. Maintainers may remove comments, commits or contributors that violate this code.
