@@ -1,0 +1,6 @@
+{
+  "name": "OpenSSF Scorecard",
+  "description": "Weekly security posture score (pinned deps, token permissions, branch protection) uploaded to Code scanning. Public repos.",
+  "iconName": "octicon shield-check",
+  "categories": ["Code Scanning"]
+}
