@@ -1,0 +1,6 @@
+{
+  "name": "PR checks (branch flow + Conventional title)",
+  "description": "Enforces feature/* -> development -> staging -> main, Conventional Commits PR titles, and auto-labels PRs.",
+  "iconName": "octicon git-pull-request",
+  "categories": ["Automation"]
+}

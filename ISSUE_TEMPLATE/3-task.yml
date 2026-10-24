@@ -1,0 +1,30 @@
+name: Task
+description: A specific, well-defined piece of work (technical task, chore, spike, documentation).
+title: "[Task]: "
+type: Task
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What needs to be done
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      value: |
+        - [ ]
+        - [ ] Docs updated (if relevant)
+    validations:
+      required: true
+  - type: input
+    id: parent
+    attributes:
+      label: Parent epic / feature
+      placeholder: "#"
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes / links

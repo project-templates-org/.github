@@ -1,0 +1,46 @@
+name: Feature
+description: A user-facing capability or improvement.
+title: "[Feature]: "
+type: Feature
+labels: ["needs-triage"]
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: User story
+      description: Who needs what, and why?
+      placeholder: "As a <role>, I want <capability> so that <benefit>."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Testable conditions. Prefer Given / When / Then.
+      value: |
+        - [ ] Given ..., when ..., then ...
+        - [ ]
+    validations:
+      required: true
+  - type: textarea
+    id: design
+    attributes:
+      label: Design / technical notes
+      description: Mockups, API contracts, constraints, links.
+  - type: input
+    id: epic
+    attributes:
+      label: Parent epic
+      description: "Issue number of the parent epic (e.g. #12). Also add this issue as a sub-issue of the epic."
+      placeholder: "#"
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Suggested priority
+      description: Final priority is set on the project board during triage.
+      options:
+        - P0 - Critical
+        - P1 - High
+        - P2 - Medium
+        - P3 - Low
+      default: 2

@@ -1,0 +1,6 @@
+{
+  "name": "Release (tag + release/* backup branch)",
+  "description": "Manual release from main: creates vX.Y.Z tag, read-only release/vX.Y.Z backup branch and GitHub Release with generated notes.",
+  "iconName": "octicon tag",
+  "categories": ["Deployment"]
+}

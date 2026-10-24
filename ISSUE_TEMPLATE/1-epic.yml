@@ -1,0 +1,53 @@
+name: Epic
+description: A large outcome that is delivered through several features/tasks (tracked as sub-issues).
+title: "[Epic]: "
+type: Epic
+labels: ["needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        An **Epic** groups related work. After creating it, break it down with **Create sub-issue** (Features, Tasks, Bugs).
+        Set Priority, Target date and Iteration on the project board.
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal / outcome
+      description: What changes for users or the business when this epic is done?
+      placeholder: "Users can sign up and log in with email and SSO."
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: What is in scope and explicitly out of scope?
+      value: |
+        **In scope**
+        -
+
+        **Out of scope**
+        -
+    validations:
+      required: true
+  - type: textarea
+    id: success
+    attributes:
+      label: Success criteria
+      description: Measurable criteria that define "done" for the whole epic.
+      placeholder: "- 95% of sign-ups complete in under 60s"
+    validations:
+      required: true
+  - type: textarea
+    id: breakdown
+    attributes:
+      label: Initial breakdown
+      description: Rough list of features/tasks. Convert each into a sub-issue.
+      placeholder: |
+        - Feature: email sign-up
+        - Feature: SSO login
+        - Task: auth DB schema
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks, dependencies, open questions
